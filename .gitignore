@@ -12,6 +12,7 @@
 *.class
 
 # generated files
+# 匹配模式最后跟"/"说明要忽略的是目录
 bin/
 out/
 gen/
@@ -37,6 +38,10 @@ project.properties
 *.iml
 *.ipr
 *.iws
+
+## .o .a
+*.o
+*.a
 
 ##Gradle-based build
 .gradle
